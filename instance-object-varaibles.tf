@@ -16,6 +16,11 @@ default = {
     availability_zone = "2" #each.value.availability_zone 2
     subnet_id = "web"
   }
+  "web3" = {
+    vm_size = "Standard_D2alds_v7"
+    availability_zone = "3" #each.value.availability_zone 3
+    subnet_id = "web"
+  }
   
 }
 }
